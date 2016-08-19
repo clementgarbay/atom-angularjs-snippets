@@ -1,0 +1,21 @@
+'.source.js':
+  'ngConfig':
+    'prefix': 'ngconfig'
+    'body': """
+      (() => {
+        'use strict';
+
+        angular
+          .module('${1:module}')
+          .config('${2:Config}Config', ${2:Config}Config);
+
+        ${2:Config}Config.$inject = [
+          '${3:dependencies}'
+        ];
+
+        /* @ngInject */
+        function ${2:Config}Config(${3:dependencies}) {
+
+        }
+      })();
+    """

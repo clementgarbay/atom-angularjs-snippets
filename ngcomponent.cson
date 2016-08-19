@@ -1,6 +1,6 @@
 '.source.js':
-  'ngController':
-    'prefix': 'ngcontroller'
+  'ngComponent':
+    'prefix': 'ngcomponent'
     'body': """
       (() => {
         'use strict';
