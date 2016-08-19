@@ -7,7 +7,7 @@
 
         angular
           .module('${1:module}')
-          .config('${2:Config}Config', ${2:Config}Config);
+          .config(${2:Config}Config);
 
         ${2:Config}Config.$inject = [
           '${3:dependencies}'
