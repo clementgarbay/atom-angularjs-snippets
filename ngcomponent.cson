@@ -1,0 +1,36 @@
+'.source.js':
+  'ngController':
+    'prefix': 'ngcontroller'
+    'body': """
+      (() => {
+        'use strict';
+
+        const componentConfig = {
+          templateUrl: '${2:component}.component.html',
+          controller: ${3:Controller}Ctrl,
+          controllerAs: 'vm',
+          bindings: {
+          }
+        }
+
+        angular
+          .module('${1:module}')
+          .component('${2:component}', componentConfig);
+
+        ${3:Controller}Ctrl.$inject = [
+          '${3:dependencies}'
+        ];
+
+        /* @ngInject */
+        function ${3:Controller}Ctrl(${3:dependencies}) {
+          const vm = this;
+
+          activate();
+
+          ////////////////
+
+          function activate() {
+          }
+        }
+      })();
+    """
