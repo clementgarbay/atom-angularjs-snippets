@@ -3,7 +3,7 @@
   "main": "./lib/atom-angularjs-snippets",
   "description": "A collection of AngularJS snippets to use with Atom.",
   "version": "0.1.1",
-  "repository": "https://github.com/clementgarbay/AtomAngularSnippets",
+  "repository": "https://github.com/clementgarbay/atom-angularjs-snippets",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
