@@ -11,7 +11,7 @@
 
         function ${2:directive}() {
           const directive = {
-            restrict: '${3:EA}',
+            restrict: '${3:E}',
             templateUrl: '${4:templateUrl}',
             controller: ${5:Controller}Ctrl,
             controllerAs: 'vm',
