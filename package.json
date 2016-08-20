@@ -2,7 +2,6 @@
   "name": "atom-angular-snippets",
   "main": "./lib/atom-angular-snippets",
   "version": "0.1.1",
-  "description": "A set of AngularJS snippets based on John Papa's style guide and ES6 syntax.",
   "repository": "https://github.com/clementgarbay/AtomAngularSnippets",
   "license": "MIT",
   "engines": {
